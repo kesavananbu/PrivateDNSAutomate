@@ -1,0 +1,42 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="On"
+        android:shortcutShortLabel="@string/shortcut_primary_on"
+        android:enabled="true"
+        android:icon="@drawable/ic_dnson">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.privatednsautomate"
+            android:targetClass="com.example.privatednsautomate.shortcuts.PrivateDnsSetOn" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="Off"
+        android:shortcutShortLabel="@string/shortcut_off"
+        android:enabled="true"
+        android:icon="@drawable/ic_dnsoff">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.privatednsautomate"
+            android:targetClass="com.example.privatednsautomate.shortcuts.PrivateDnsSetOff" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="Automatic"
+        android:shortcutShortLabel="@string/shortcut_automatic"
+        android:enabled="true"
+        android:icon="@drawable/ic_dnsauto">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.privatednsautomate"
+            android:targetClass="com.example.privatednsautomate.shortcuts.PrivateDnsSetAutomatic" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="SecondaryDNS"
+        android:shortcutShortLabel="@string/shortcut_secondary_on"
+        android:enabled="true"
+        android:icon="@drawable/ic_dnson">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.privatednsautomate"
+            android:targetClass="com.example.privatednsautomate.shortcuts.PrivateDnsSecondaryOn" />
+    </shortcut>
+</shortcuts>

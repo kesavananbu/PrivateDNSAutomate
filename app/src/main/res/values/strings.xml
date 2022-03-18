@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Private DNS</string>
+    <string name="qt_default">Private DNS</string>
+    <string name="app_config">Private DNS</string>
+    <string name="qt_off">DNS Off</string>
+    <string name="qt_auto">DNS Auto</string>
+    <string name="dns_on">DNS On</string>
+    <string name="dns_primary">Primary DNS</string>
+    <string name="dns_secondary">Secondary DNS</string>
+    <string name="toast_no_permission">WRITE_SECURE_SETTINGS permission not granted</string>
+    <string name="dns_hostname_hint">Enter Primary DNS provider</string>
+    <string name="dns_secondary_hostname_hint">Enter Secondary DNS provider</string>
+    <string name="toast_no_dns">DNS provider not configured</string>
+    <string name="toast_no_secondary_dns">Secondary DNS provider not configured</string>
+    <string name="toast_changes_saved">Your changes have been saved</string>
+    <string name="url_fdroid">https://f-droid.org/en/packages/com.jpwolfso.privdnsqt/</string>
+    <string name="message_help">To modify the Private DNS settings, this app requires the WRITE_SECURE_SETTINGS permission, which can only be granted by ADB: pm grant com.example.privatednsautomate android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="app_info">App info</string>
+    <string name="view_fdroid">View on F-Droid</string>
+    <string name="help">Help</string>
+    <string name="shortcut_primary_on">Primary On</string>
+    <string name="shortcut_secondary_on">Secondary On</string>
+    <string name="shortcut_off">Off</string>
+    <string name="shortcut_automatic">Automatic</string>
+    <string name="intent_service">IntentService</string>
+    <string name="running">Running</string>
+</resources>
